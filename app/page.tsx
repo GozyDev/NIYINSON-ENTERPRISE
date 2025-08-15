@@ -18,9 +18,9 @@ export default function Home() {
         <MobileNavbar />
       </header>
       <Hero />
+      <ServicesSection />
       <VisionSection />
       <AboutSection />
-      <ServicesSection />
       <PreviewMyWork />
       <Testimonials />
       <Faq />

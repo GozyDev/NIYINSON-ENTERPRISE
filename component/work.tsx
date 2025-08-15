@@ -8,7 +8,8 @@ const furnitureImages = Array.from({ length: 12 }, (_, i) => ({
 export default function PreviewMyWork() {
   return (
     <section id="work" className="py-12 px-4 bg-white">
-      <h2 className="text-5xl text-center font-bold  text-amber-900 uppercase tracking-tight mb-8">Preview My Work</h2>
+      <h2 className="text-5xl text-center font-bold  text-amber-900 uppercase tracking-tight mb-4">Preview My Work</h2>
+      <p className="text-center text-xl text-gray-600 mb-8">A closer look at the details that make the difference.</p>
       <div className=" max-w-7xl mx-auto columns-2 md:columns-3 lg:columns-4 space-y-2 gap-2  md:gap-4 md:space-y-4">
         {furnitureImages.map((item, index) => (
           <div key={index} className="break-inside-avoid">

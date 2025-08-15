@@ -28,7 +28,7 @@ export default function VisionSection() {
   return (
     <section
       id="about"
-      className="flex flex-col md:flex-row items-center gap-4 md:space-x-[-100px] py-12 px-4 md:px-12 bg-gray-50"
+      className="flex   flex-col md:flex-row items-center gap-4 md:space-x-[-100px] py-12 px-4 md:px-12 "
     >
        {/* Image */}
       <div className="flex-1 h-[600px]">

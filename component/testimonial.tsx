@@ -70,10 +70,14 @@ export default function Testimonials() {
 
   return (
     <section id="testimonial" className="py-16">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto px-4 ">
         <h2 className="text-5xl font-bold  text-amber-900 uppercase tracking-tight  text-center   mb-8">
           Clients Reviews
         </h2>
+        <p className="text-center text-xl text-gray-600 mb-8">
+          Our Clients Say It Best.
+        </p>
+
         <div className="flex flex-col-reverse md:flex-row gap-2 md:items-center">
           <div className="md:w-1/2  ">
             <Image

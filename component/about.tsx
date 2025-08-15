@@ -5,22 +5,11 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="flex flex-col-reverse md:flex-row items-center gap-4 md:space-x-[-100px] py-12 px-4 md:px-12 bg-gray-50"
+      className="flex  mx-auto flex-col-reverse md:flex-row items-center gap-4 md:space-x-[-100px] py-12 px-4 md:px-12 "
     >
-      {/* Image */}
-      <div className="flex-1 h-[600px]">
-        <Image
-          src="/cansu-hangul-CbiyI2cl0V4-unsplash.jpg"
-          alt="Workshop photo"
-          width={400}
-          height={400}
-          className="rounded-lg object-cover w-full h-full"
-        />
-      </div>
-
       {/* Text */}
       <div className="flex-1 rounded relative z-10 bg-gray-50/30 backdrop-blur-lg">
-        <div className="p-[5px] md:p-[20px] md:border-r  border-r-amber-800 ">
+        <div className="p-[5px] md:p-[20px] md:border-l  border-l-amber-800 ">
           <h2 className="text-5xl font-bold mb-4 text-amber-900 uppercase tracking-tight flex items-center">
             About{" "}
           </h2>
@@ -36,6 +25,16 @@ export default function AboutSection() {
             turn raw wood into something you’ll treasure for a lifetime.
           </p>
         </div>
+      </div>
+      {/* Image */}
+      <div className="flex-1 h-[600px]">
+        <Image
+          src="/cansu-hangul-CbiyI2cl0V4-unsplash.jpg"
+          alt="Workshop photo"
+          width={400}
+          height={400}
+          className="rounded-lg object-cover w-full h-full"
+        />
       </div>
     </section>
   );

@@ -42,12 +42,12 @@ export default function Faq() {
 
   return (
     <section className="py-16 bg-white">
-      <div className="max-w-4xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-5xl font-bold text-amber-900 uppercase tracking-tight">
             Frequently Asked Questions  
           </h2>
-          <p className="mt-4 text-gray-500 max-w-2xl mx-auto">
+          <p className="mt-4 text-gray-500 max-w-2xl mx-auto text-xl">
             Everything you need to know about our custom furniture process
           </p>
         </div>
