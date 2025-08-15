@@ -18,13 +18,13 @@ export default function Home() {
         <MobileNavbar />
       </header>
       <Hero />
-      <ServicesSection />
-      <VisionSection/>
+      <VisionSection />
       <AboutSection />
-      <PreviewMyWork/>
+      <ServicesSection />
+      <PreviewMyWork />
       <Testimonials />
-      <Faq/>
-      <ContactSection/>
+      <Faq />
+      <ContactSection />
     </div>
   );
 }

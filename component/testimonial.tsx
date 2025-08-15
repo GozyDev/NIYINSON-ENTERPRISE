@@ -69,19 +69,19 @@ export default function Testimonials() {
   }, []);
 
   return (
-    <section id="testimonial" className="py-16 bg-gray-50">
-      <div className="max-w-5xl mx-auto px-4">
+    <section id="testimonial" className="py-16">
+      <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-5xl font-bold  text-amber-900 uppercase tracking-tight  text-center   mb-8">
           Clients Reviews
         </h2>
         <div className="flex flex-col-reverse md:flex-row gap-2 md:items-center">
-          <div className="md:w-1/2 ">
+          <div className="md:w-1/2  ">
             <Image
-              src="/Carpenter_PNG-removebg-preview.png"
+              src="/capenterSmile.png"
               alt="Capenter image "
               width={400}
               height={0}
-              className="mx-auto"
+              className="mx-auto w-full"
             ></Image>
           </div>
           <div className="md:w-1/2 relative">
@@ -109,12 +109,12 @@ export default function Testimonials() {
 
             <div
               ref={containerRef}
-              className="overflow-x-auto flex gap-3 snap-x snap-mandatory scroll-smooth no-scrollbar w-full "
+              className="overflow-x-auto flex gap-3 snap-x snap-mandatory scroll-smooth no-scrollbar w-full shadow"
             >
               {testimonials.map((t, index) => (
                 <div
                   key={index}
-                  className="bg-white p-6 py-20 min-w-full w-full snap-center shadow rounded"
+                  className="bg-amber-50 p-6 py-20 min-w-full w-full snap-center rounded"
                 >
                   <h4 className="text-xl font-semibold text-gray-900">
                     {t.name}

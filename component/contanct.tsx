@@ -38,7 +38,7 @@ export default function ContactSection() {
                   </h2>
                   <p className="text-black/70">Reach out today custom woodwork that fits your vision starts with a conversation.</p>
                   <a href="mailto:networkinggmail@gmail.com">
-                      <h3 className="text-3xl md:text-4xl text-gray-500 animate-pulse ">Capento@gmail.com</h3>
+                      <h3 className="text-3xl md:text-4xl text-gray-500 animate-pulse ">Example@gmail.com</h3>
                   </a>
               </span>
               {/* WhatsApp & Call */}
