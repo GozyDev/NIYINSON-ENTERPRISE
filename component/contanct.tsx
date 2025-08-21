@@ -37,8 +37,8 @@ export default function ContactSection() {
                     Contact me
                   </h2>
                   <p className="text-black/70">Reach out today custom woodwork that fits your vision starts with a conversation.</p>
-                  <a href="mailto:networkinggmail@gmail.com">
-                      <h3 className="text-3xl md:text-4xl text-gray-500 animate-pulse ">Example@gmail.com</h3>
+                  <a href="mailto:niyosonenterprise137@gmail.com ">
+                      <h3 className="text-xl md:text-4xl text-gray-500 animate-pulse ">niyosonenterprise137@gmail.com</h3>
                   </a>
               </span>
               {/* WhatsApp & Call */}
@@ -61,7 +61,7 @@ export default function ContactSection() {
                   href="tel:+2348137058129"
                   className="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900 flex items-center gap-1"
                 >
-                  Call Us{" "}
+                  Call Me{" "}
                   <Image
                     src="smartphone-12-svgrepo-com.svg"
                     alt="phone"
