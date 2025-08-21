@@ -1,6 +1,22 @@
 // AboutSection.jsx
+import { Facebook, Instagram, Twitter } from "lucide-react";
 import Image from "next/image";
 
+const icons = [
+  {
+    name: "instagram",
+    icon: <Instagram size={25} />,
+  },
+  {
+    name: "facebook",
+    icon: <Twitter size={25}  />,
+    href:'https://web.facebook.com/olaniyi.daramola.35'
+  },
+  {
+    name: "facebook",
+    icon: <Facebook size={25}  />,
+  }
+];
 export default function AboutSection() {
   return (
     <section
@@ -14,7 +30,7 @@ export default function AboutSection() {
             About{" "}
           </h2>
           <p className="text-lg text-gray-700 mb-6 leading-[40px] tracking-wide">
-            Hi, I’m <span className="font-semibold">David Cole</span>. I’ve been
+            Hi, I’m <span className="font-semibold">NIYI</span>. I’ve been
             crafting unique wood pieces for over <strong>10 years</strong>,
             blending traditional craftsmanship with modern design to bring your
             vision to life. In that time, I’ve completed more than{" "}
@@ -24,6 +40,18 @@ export default function AboutSection() {
             <strong>Lagos, Nigeria</strong> and beyond, my mission is simple: to
             turn raw wood into something you’ll treasure for a lifetime.
           </p>
+
+          <div>
+            <ul className="flex gap-4 items-center">
+              {icons.map((icon) => (
+                <a href={icon.href} target="_blank"   rel="noopener noreferrer">
+                  <div className="bg-amber-50 w-11 h-11 flex items-center justify-center rounded-full">
+                    <li className="text-amber-900">{icon.icon}</li>
+                  </div>
+                </a>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
       {/* Image */}
