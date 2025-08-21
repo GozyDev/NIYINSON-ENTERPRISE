@@ -1,7 +1,7 @@
 // PreviewMyWork.jsx
 import React from "react";
 
-const furnitureImages = Array.from({ length: 12 }, (_, i) => ({
+const furnitureImages = Array.from({ length: 13 }, (_, i) => ({
   image: `/work/funiture${i + 1}.jpg`
 }));
 
