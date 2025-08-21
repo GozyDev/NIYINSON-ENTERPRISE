@@ -41,6 +41,7 @@ export const metadata: Metadata = {
     description:
       "Trusted carpentry and custom furniture services for homes and businesses.",
     images: ["/opengraph.png"],
+    creator: "@Gozy_Dev"
   },
 };
 
